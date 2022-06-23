@@ -1,0 +1,10 @@
+.logo {
+    width: 100px;
+}
+
+.img-carousel{
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 45%;
+
+}
