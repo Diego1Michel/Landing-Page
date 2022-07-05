@@ -2,9 +2,61 @@
     width: 100px;
 }
 
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+#navbarNav a{
+    padding: 0px;
+}
+
+.material-symbols-outlined{
+    color: rgba(124, 4, 4, 0.591);
+    font-size: 38px !important;
+}
+
 .img-carousel{
     height: 600px;
     object-fit: cover;
     object-position: 0 45%;
 
+}
+
+.card-largura {
+    width: 18rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-produto {
+    height: 300px;
+    object-fit: cover;
+}
+
+.form-label{
+    margin-bottom: unset;
+    margin-top: .5rem;
+}
+
+.invalid-feedback{
+    margin-bottom: .2rem;
+}
+
+.btn-enviar{
+    margin-top: 15px;
+    background-color: rgba(146, 58, 4, 0.169);
+    color: rgb(67, 17, 113);
+}
+
+.btn-enviar:houver{
+ border: 1px solid #000;
+ background-color: rgba(1, 100, 142, 0.408);
+ color: rgba(74, 40, 5, 0.544);
 }
